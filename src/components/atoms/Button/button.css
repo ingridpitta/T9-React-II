@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Chivo", sans-serif;
+  z-index: 5;
+}
+
+.searchBar--btn {
+  color: white;
+  background-color: #64babb;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 5;
+  font-family: "Chivo", sans-serif;
+}
+
+.searchBar--btn:hover,
+.searchBar--btn:active {
+  background-color: #498c8e;
+  font-family: "Chivo", sans-serif;
+ 
+}
+
+.confirm--btn {
+  color: white;
+  background-color: #64babb;
+  font-family: "Chivo", sans-serif;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 5;
+  outline: none;
+}
+
+.confirm--btn:hover{
+   color: white;
+}
+
+.cancel--btn {
+  color: #64babb;
+  background-color: #edf6f5;
+  font-family: "Chivo", sans-serif;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 35px;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 5;
+  cursor: pointer;
+  outline: none;
+}
+
+.cancel--btn:hover{
+   color: #64babb;
+}
